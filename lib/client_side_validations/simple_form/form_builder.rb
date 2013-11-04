@@ -4,7 +4,7 @@ module ClientSideValidations
 
       def self.included(base)
         base.class_eval do
-          def client_side_form_settings(options, form_helper)
+          def self.client_side_form_settings(options, form_helper)
             wrapper_name = options[:wrapper] || ::SimpleForm.default_wrapper
             wrapper =  ::SimpleForm.wrapper(wrapper_name)
             {
