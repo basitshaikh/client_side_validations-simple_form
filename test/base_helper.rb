@@ -1,17 +1,14 @@
 require 'rubygems'
-require 'bundler'
-Bundler.setup
-require 'rails'
+require 'bundler/setup'
 require 'test/unit'
-require 'mocha'
-
-if RUBY_VERSION >= '1.9.3'
-  require 'debugger'
-end
-
+require 'debugger'
+require 'mocha/setup'
+require 'rails'
 require 'rails/engine'
 
 module TestApp
   class Application < Rails::Application
+    config.secret_key_base = "secretkey123"
+    I18n.enforce_available_locales = true
   end
 end

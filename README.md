@@ -2,9 +2,7 @@
 
 # ClientSideValidations-SimpleForm #
 
-[![Build Status](https://secure.travis-ci.org/dockyard/client_side_validations-simple_form.png?branch=master)](http://travis-ci.org/dockyard/client_side_validations-simple_form)
-[![Dependency Status](https://gemnasium.com/dockyard/client_side_validations-simple_form.png?travis)](https://gemnasium.com/dockyard/client_side_validations-simple_form)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/dockyard/client_side_validations-simple_form)
+[![Build Status](https://travis-ci.org/merhard/client_side_validations-simple_form.png?branch=master)](https://travis-ci.org/merhard/client_side_validations-simple_form)
 
 [SimpleForm](https://github.com/plataformatec/simple_form) plugin for [ClientSideValidations](https://github.com/bcardarella/client_side_validations)
 
@@ -73,7 +71,7 @@ This gem follows [Semantic Versioning](http://semver.org)
 
 Major and minor version numbers will follow `Rails`'s major and
 minor version numbers. For example,
-`client_side_validations-simple_form-2.0.0` will be compatible up to 
+`client_side_validations-simple_form-2.0.0` will be compatible up to
 `~> simple_form-2.0.0`
 
 ## Want to help? ##

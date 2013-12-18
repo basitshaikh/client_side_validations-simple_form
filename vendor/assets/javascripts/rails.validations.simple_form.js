@@ -20,7 +20,6 @@
       "default": {
         add: function(element, settings, message) {
           var errorElement, wrapper;
-
           errorElement = element.parent().find("" + settings.error_tag + "." + settings.error_class);
           wrapper = element.closest(settings.wrapper_tag);
           if (errorElement[0] == null) {
@@ -35,7 +34,6 @@
         },
         remove: function(element, settings) {
           var errorElement, wrapper;
-
           wrapper = element.closest("" + settings.wrapper_tag + "." + settings.wrapper_error_class);
           wrapper.removeClass(settings.wrapper_error_class);
           errorElement = wrapper.find("" + settings.error_tag + "." + settings.error_class);
@@ -45,7 +43,6 @@
       bootstrap: {
         add: function(element, settings, message) {
           var errorElement, wrapper_class_element, wrapper_tag_element;
-
           errorElement = element.parent().find("" + settings.error_tag + "." + settings.error_class);
           if (errorElement[0] == null) {
             wrapper_tag_element = element.closest(settings.wrapper_tag);
@@ -61,7 +58,6 @@
         },
         remove: function(element, settings) {
           var errorElement, wrapper_class_element, wrapper_tag_element;
-
           wrapper_class_element = element.closest("." + settings.wrapper_class + "." + settings.wrapper_error_class);
           wrapper_tag_element = element.closest(settings.wrapper_tag);
           wrapper_class_element.removeClass(settings.wrapper_error_class);
