@@ -40,6 +40,9 @@ into `public/javascripts`. Otherwise the asset file will be copied into
 `app/assets/javascripts` (or whatever asset directory you have
 defined)
 
+## Wrappers ##
+Supports default, bootstrap and foundation wrappers.
+
 ## Usage ##
 
 The usage is the same as `ClientSideValidations`, just pass `:validate => true` to the form builder
