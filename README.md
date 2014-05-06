@@ -1,8 +1,5 @@
-# This library is no longer being maintained. Use at your own risk #
 
 # ClientSideValidations-SimpleForm #
-
-[![Build Status](https://travis-ci.org/merhard/client_side_validations-simple_form.png?branch=master)](https://travis-ci.org/merhard/client_side_validations-simple_form)
 
 [SimpleForm](https://github.com/plataformatec/simple_form) plugin for [ClientSideValidations](https://github.com/bcardarella/client_side_validations)
 
@@ -13,7 +10,7 @@ In your Gemfile add the following:
 ```ruby
 gem 'simple_form'
 gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'client_side_validations-simple_form', github: 'coorasse/client_side_validations-simple_form'
 ```
 
 Order matters here. `SimpleForm` and `ClientSideValidations` need to be

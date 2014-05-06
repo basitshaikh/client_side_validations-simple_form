@@ -13,13 +13,12 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = ClientSideValidations::SimpleForm::VERSION
 
-  gem.add_dependency 'client_side_validations'
-  gem.add_dependency 'simple_form'
+  gem.add_dependency 'client_side_validations', '~> 3.2.5'
+  gem.add_dependency 'simple_form', '~> 3.0.0'
 
   gem.add_development_dependency 'rails', '~> 4.0.0'
   gem.add_development_dependency 'mocha'
   gem.add_development_dependency 'm'
-  gem.add_development_dependency 'debugger'
 
   # For QUnit testing
   gem.add_development_dependency 'sinatra', '~> 1.0'
