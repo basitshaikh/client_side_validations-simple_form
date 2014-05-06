@@ -1,7 +1,7 @@
 
-# ClientSideValidations-SimpleForm #
+# ClientSideValidations-SimpleForm for Rails 4.0#
 
-[SimpleForm](https://github.com/plataformatec/simple_form) plugin for [ClientSideValidations](https://github.com/bcardarella/client_side_validations)
+[SimpleForm](https://github.com/plataformatec/simple_form) plugin for [ClientSideValidations](https://github.com/coorasse/client_side_validations/tree/4-0-beta)
 
 ## Installation ##
 
@@ -9,7 +9,7 @@ In your Gemfile add the following:
 
 ```ruby
 gem 'simple_form'
-gem 'client_side_validations'
+gem 'client_side_validations', github: 'coorasse/client_side_validations', branch: '4-0-beta'
 gem 'client_side_validations-simple_form', github: 'coorasse/client_side_validations-simple_form'
 ```
 
